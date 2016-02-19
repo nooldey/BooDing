@@ -1,0 +1,35 @@
+/*自适应移动化*/
+@media screen and ( max-width:1130px){
+    #header{ }
+    .entry-meta,.entry{*line-height: 1.5em!important;font-size:13px;}
+    #site-header{width:auto;height:auto;}
+    #site-title{float:none;margin: 0 auto;}
+    #navbar,header{clear:both;}
+    #nav{float:none;clear:both;*zoom:1;height: auto;line-height: 2em;}
+    #nav:after{content:'.';display:block;clear:both;height:0;overflow:hidden;visibility:visible;}
+    #nav ul{position:relative;}
+    #nav li{height: 2.5em;}
+    .mobileclear{height: 1px;clear:both;}
+    #site-title .logo{box-shadow:none;}
+    #wrapper{width:auto;padding:0.5em;}
+    #content{width:100%;float:none;}
+    #sidebar{display:none;}
+    #middle{width:auto;}
+    .post{width:auto;}
+    .comments-link{background:#000;width:1.5em;height:0.5em;margin-right:0.5em;display: table;border:0;padding: 0.1em 0.5em;border-radius:8px;-o-border-radius:8px;-webkit-border-radius:8px;line-height: 0.5em;}
+    .thumbnail{float:none;width: 100%;height:auto;margin:0;}
+    img.home-thumb{width:100%!important;border-radius:0;}
+    .entry img{max-width:80%;height:auto;margin:0 auto;}
+    .inputarea p{width:100%;}
+    .vcard .avatar{width:2em;height:2em;margin-right:0.3em;}
+    #tags-related{width:auto;}
+    #tags-related li{max-width: 380px;width:100%;}
+    #page-path{width:auto;overflow:hidden;}
+    #single-path{width:auto;}
+    #singleshare{width:0;display:none;}
+    .pagination a,.pagination .current{padding:0.2em 1.3%;margin:0.1em;}
+    #footer{box-shadow:none;border:none;padding:0.3em;}
+    .copyright-footer{width:auto;}
+    .copyright-left{width:90%;min-width:200px;float:none;}
+    section.qrimg{display:none!important;}
+}

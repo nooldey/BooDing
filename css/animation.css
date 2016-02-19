@@ -1,0 +1,107 @@
+/**
+ ** 这是一个CSS3动画专用的样式表。ZWS
+ **/
+
+/*评论头像旋转*/
+ol.commentlist li div.vcard .avatar{ 
+transition: transform 0.5s ease-in-out;
+-webkit-transition: -webkit-transform 0.5s ease-in-out;
+-moz-transition: -moz-transform 0.5s ease-in-out;
+}
+ol.commentlist li div.vcard .avatar:hover{ 
+transform: rotateZ(360deg);/*图像旋转360度*/
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+}
+
+ /*颜色自动变化*/
+.changecolor{
+    /*变化一个周期5秒,变化次数infinite无穷次*/
+    animation:changecolor .5s infinite;    
+    -moz-animation:changecolor .5s infinite; /* Firefox */
+    -webkit-animation:changecolor .5s infinite; /* Safari and Chrome */
+    -o-animation:changecolor .5s infinite; /* Opera */
+    /*设置变化逆向alternate*/
+    -webkit-animation-direction:alternate;
+    -moz-animation-direction:alternate;
+    -o-animation-direction:alternate;
+ }
+ @keyframes changecolor {      /*设置颜色渐变*/
+    0%   {color:#fc6e51;}
+    25%  {color:#5d9cec;}
+    50%  {color:#ac92ec;}
+    75%  {color:#4fc1e9;}
+    100% {color:#a0d468;}
+    }
+
+@-moz-keyframes changecolor /* Firefox */
+    {
+    0%   {color:#fc6e51;}
+    25%  {color:#5d9cec;}
+    50%  {color:#ac92ec;}
+    75%  {color:#4fc1e9;}
+    100% {color:#a0d468;}
+    }
+
+@-webkit-keyframes changecolor /* Safari and Chrome */
+    {
+    0%   {color:#fc6e51;}
+    25%  {color:#5d9cec;}
+    50%  {color:#ac92ec;}
+    75%  {color:#4fc1e9;}
+    100% {color:#a0d468;}
+    }
+
+@-o-keyframes changecolor /* Opera */
+    {
+    0%   {color:#fc6e51;}
+    25%  {color:#5d9cec;}
+    50%  {color:#ac92ec;}
+    75%  {color:#4fc1e9;}
+    100% {color:#a0d468;}
+    }
+
+/*左右抖动*/
+.logo:hover{
+    /*变化一个周期5秒,变化次数infinite无穷次*/
+    animation:changedegree .01s infinite;    
+    -moz-animation:changedegree .01s infinite; /* Firefox */
+    -webkit-animation:changedegree .01s infinite; /* Safari and Chrome */
+    -o-animation:changedegree .01s infinite; /* Opera */
+    /*设置变化逆向alternate*/
+    -webkit-animation-direction:alternate;
+    -moz-animation-direction:alternate;
+    -o-animation-direction:alternate;
+}
+@keyframes changedegree /*  */
+    {
+   0% {background-position:3px 0px;}
+   25%{background-position:1.5px 0;}
+   50% {background-position:0px 0;}
+   75%{background-position:-1.5px 0;}
+   100% {background-position:-3px 0px;}
+}
+@-webkit-keyframes changedegree /* chrome */
+    {
+  0% {background-position:3px 0px;}
+   25%{background-position:1.5px 0;}
+   50% {background-position:0px 0;}
+   75%{background-position:-1.5px 0;}
+   100% {background-position:-3px 0px;}
+}
+@-moz-keyframes changedegree /* firefox  */
+    {
+  0% {background-position:3px 0px;}
+   25%{background-position:1.5px 0;}
+   50% {background-position:0px 0;}
+   75%{background-position:-1.5px 0;}
+   100% {background-position:-3px 0px;}
+}
+@-o-keyframes changedegree /* Opera */
+    {
+  0% {background-position:3px 0px;}
+   25%{background-position:1.5px 0;}
+   50% {background-position:0px 0;}
+   75%{background-position:-1.5px 0;}
+   100% {background-position:-3px 0px;}
+}
