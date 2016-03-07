@@ -13,7 +13,7 @@
 9. 矢量字体图标
 10. 移动设备浏览自适应
 11. 更多功能请自行体会。
-12. 主题说明文章[BooDing主题分享](https://github.com/nooldey/WordPress-theme-BooDing)
+12. 主题说明文章[BooDing主题分享](http://zhuweisheng.com.cn/wordpress/Theme-BooDing/)
 
 ### 声明
 此主题为碎碎念ZWS（zhuweisheng.com.cn）在框架主题基础上开发完成，功能核心代码来自WP界大神分享，由本人进行整合及改进，您可以完全免费地使用此款主题，并根据自己的需求进行修改和二次开发，但请勿用于商业用途。
